@@ -204,7 +204,12 @@ exp3_search = retrieve_sex_and_cybersickness(exp3_search, demo_data_exp3,'exp_3'
 
 #Concatening datasets
 inspection_df = pd.concat([exp1_inspec, exp2_inspec, exp3_inspec])
+#Adding unique id and replacing experiment ambigous id
+inspection_df['part_id'] = np.arange(len(inspection_df))
+
 search_df = pd.concat([exp1_search, exp2_search, exp3_search])
+#Adding unique id and replacing experiment ambigous id
+search_df['part_id'] = np.arange(len(search_df))
 
 #Exporting datasets
 inspection_df.to_csv('data/inspection.csv', index=False)
