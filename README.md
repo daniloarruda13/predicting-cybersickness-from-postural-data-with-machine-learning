@@ -38,6 +38,7 @@ Folders:
 - data_analysis_and_modeling.ipynb: This is the main notebook with all the analyses. 
 - pre_processing.py: This is a Python script responsible for all the data wrangling and preprocessing.
 - requirements.txt: This is the file containing all the libraries needed to run the notebook.
+- blog_post.html: This is a blog post discussing all the analyses more in depth.
 
 ## Motivation
 
