@@ -2,6 +2,7 @@
 # Predicting Cybersickness from Postural Data with Machine Learning <!-- omit in toc -->
  This project is an initial attempt to develop a model to predict cybersickness based on postural data. The reasoning behind it comes from the postural instability theory. Which states that cybersickness symptons emerge due to a lack of postural control. According to this theory, based on individual postural pattern, it would be possible to predict the ones at a higher risk of suffering from cybersickness. You can see more about the theory and studies related to it in the article we recently published [HERE](https://www.frontiersin.org/articles/10.3389/frvir.2022.1001080/full). 
 
+The blog post related to this project can be viewed [HERE](https://scitraining.com.br/2023/06/15/i-love-vr-but-i-always-get-motion-sick-using-data-science-to-predict-cybersickness/)
 
 ## Table of Contents <!-- omit in toc -->
 
