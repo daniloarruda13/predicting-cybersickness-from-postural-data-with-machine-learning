@@ -101,6 +101,8 @@ def add_sickness_status_from_ssq(dataset,dir):
 def remove_rows_based_on_condition(dataset: pd.DataFrame, reference_dataset: pd.DataFrame) -> pd.DataFrame:
     """
     Removes rows from a dataset based on a condition specified in a reference dataset.
+    In our case, experiment had some participants who did not drive (they were 
+    passengers) in VR. Therefore, we need to remove these rows from the dataset.
 
     Args:
         dataset: A pandas DataFrame containing the data to be filtered.
